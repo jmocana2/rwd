@@ -1,0 +1,14 @@
+@import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+.bg_semana {
+	width: 100%;
+	min-height: 300px;
+	background: url('http://fotografias.antena3.com/clipping/cmsimages02/2017/02/28/FF43536B-DD92-4E2A-A6CA-3B311F3F49D4/57.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+.destacados {
+	article {
+		margin-bottom: 10px;
+	}
+}
