@@ -12,3 +12,47 @@
 		margin-bottom: 10px;
 	}
 }
+
+//Fonts
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/icomoon.eot?qlqra3');
+  src:  url('../fonts/icomoon/icomoon.eot?qlqra3#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?qlqra3') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?qlqra3') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?qlqra3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 40px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-logo-button:before {
+  content: "\e900";
+}
+.icon-instagram-logo:before {
+  content: "\e901";
+}
+.icon-twitter-logo-button:before {
+  content: "\e902";
+}
+
+.social {
+    ul {
+        list-style: none;
+    }
+}
